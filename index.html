@@ -1,155 +1,166 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
+    <link href="./css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <title>Studio</title>
-  </head>
+</head>
 
-  <body>
+<body>
+
     <header>
-      <h3>
-        <a href="./index.html">Web Studio</a>
-      </h3>
 
-      <nav>
-        <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
+        <h3 class="links">
+            <a class="text" href="./index.html"><span class="color-logo">Web</span>Studio</a>
+        </h3>
+
+        <nav>
+            <ul class="text links">
+                <li><a class="link-active" href="index.html">Agencja</a></li>
+                <li><a class="" href="portfolio.html">Portfolio</a></li>
+                <li><a class="" href="/kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <ul class="links">
+            <li><a class="" href="mailito:info@example.com">info@example.com</a></li>
+            <li><a class="" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
 
-      <ul>
-        <li><a href="mailito:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
-      </section>
     </header>
 
     <main>
-      <section>
-        <ul>
-          <li>
-            <span><b>LOREM IPSUM</b></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <span><b>LOREM IPSUM</b></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <span><b>LOREM IPSUM</b></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <span><b>LOREM IPSUM</b></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
 
-        <h2>Czym się zajmujemy</h2>
+        <section class="first-section">
+            <h1>EFEKTYWNE ROZWIĄZANIA<br />
+                DLA WASZEGO BIZNESU</h1>
+            <button class=" button-studio w-text" type="button">Zamów usługę</button>
+        </section>
 
-        <ul>
-          <li>
-            <img
-              src="./images/box1.jpg"
-              alt="programista piszący na klawiaturze"
-              width="370"
-              height="294"
-            />
-          </li>
+        <section>
 
-          <li>
-            <img
-              src="./images/box2.jpg"
-              alt="programistka trzymająca telefon w ręce, korzysta z laptopa w tle"
-              width="370"
-              height="294"
-            />
-          </li>
+            <ul>
+                <li>
+                    <span class="text"><b>LOREM IPSUM</b></span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
+                    </p>
+                </li>
+                <li>
+                    <span class="text"><b>LOREM IPSUM</b></span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
+                    </p>
+                </li>
+                <li>
+                    <span class="text"><b>LOREM IPSUM</b></span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
+                    </p>
+                </li>
+                <li>
+                    <span class="text"><b>LOREM IPSUM</b></span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                        arcu sem. Sed non sodales dui. Interdum et malesuada
+                    </p>
+                </li>
+            </ul>
 
-          <li>
-            <img
-              src="./images/box3.jpg"
-              alt="projektantka trzymająca tablet, na którym wyświetla się paleta kolorów"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
+            <h2 class="text">Czym się zajmujemy</h2>
 
-      <section>
-        <h2>Nasz zespół</h2>
+            <ul>
+                <li>
+                    <img src="./images/box1.jpg" alt="programista piszący na klawiaturze" width="370" height="294" />
+                </li>
 
-        <ul>
-          <li>
-            <figure>
-              <img src="./images/1.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
-              <figcaption>
-                <b>John Doe</b><br />
-                Product Designer
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./images/2.jpg" alt="uśmiechnięta kobieta" width="270" height="260" />
-              <figcaption>
-                <b>John Doe</b><br />
-                Frontend Developer
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./images/3.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
-              <figcaption>
-                <b>John Doe</b><br />
-                Marketing
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./images/4.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
-              <figcaption>
-                <b>John Doe</b><br />
-                UI Designer
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
+                <li>
+                    <img src="./images/box2.jpg" alt="programistka trzymająca telefon w ręce, korzysta z laptopa w tle"
+                        width="370" height="294" />
+                </li>
+
+                <li>
+                    <img src="./images/box3.jpg"
+                        alt="projektantka trzymająca tablet, na którym wyświetla się paleta kolorów" width="370"
+                        height="294" />
+                </li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2 class="text">Nasz zespół</h2>
+
+            <ul>
+                <li>
+                    <figure>
+                        <img src="./images/1.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
+                        <figcaption>
+                            <h5 class="text">John Doe</h5>
+                            Product Designer
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/2.jpg" alt="uśmiechnięta kobieta" width="270" height="260" />
+                        <figcaption>
+                            <h5 class="text">John Doe</h5>
+                            Frontend Developer
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/3.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
+                        <figcaption>
+                            <h5 class="text">John Doe</h5>
+                            Marketing
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/4.jpg" alt="uśmiechnięty mężczyzna" width="270" height="260" />
+                        <figcaption>
+                            <h5 class="text">John Doe</h5>
+                            UI Designer
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </section>
+
     </main>
 
-    <footer>
-      <h3>WebStudio</h3>
+    <footer class="background">
 
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <br />
-      <ul>
-        <li><a href="mailito:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</li>
-      </ul>
+        <h3 class="w-text"><span class="color-logo">Web</span>Studio</h3>
+
+        <address class="w-text">m. Warszawa, Aleje Jerozolimskie 21</address>
+        <br />
+        <ul class="links">
+            <li><a href="mailito:info@example.com">
+                    <span class="underline">info@example.com</span></a></li>
+            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
     </footer>
-  </body>
+
+</body>
+
 </html>

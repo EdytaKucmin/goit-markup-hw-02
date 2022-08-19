@@ -1,53 +1,105 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
+    <link href="./css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <title>Portfolio</title>
 </head>
+
 <body>
+
     <header>
-      <h3>
-        <a href="./index.html">Web Studio</a>
-      </h3>
 
-      <nav>
-        <ul>
-          <li><a href="">Agencja</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Kontakt</a></li>
-        </ul>
-      </nav>
+        <h3 class="links">
+            <a class="text" href="./index.html"><span class="color-logo">Web</span>Studio</a>
+        </h3>
 
-      <ul>
-        <li><a href="mailito:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+        <nav>
+            <ul class="text links">
+                <li><a class="" href="index.html">Agencja</a></li>
+                <li><a class="link-active" href="portfolio.html">Portfolio</a></li>
+                <li><a class="" href="/kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
 
-      <div>
-        <ul>
-            <li><button type="button">Wszystkie</button></li>
-            <li><button type="button">Strony</button></li>
-            <li><button type="button">Aplikacje</button></li>
-            <li><button type="button">Dizajn</button></li>
-            <li><button type="button">Marketing</button></li>
+        <ul class="links">
+            <li><a class="" href="mailito:info@example.com">info@example.com</a></li>
+            <li><a class="" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
 
-        <ul>
-            <li><img src="./images/portfolio1.jpg" alt=""></li>
-            <li><img src="./images/portfolio2.jpg" alt=""></li>
-            <li><img src="./images/portfolio3.jpg" alt=""></li>
-            <li><img src="./images/portfolio4.jpg" alt=""></li>
-            <li><img src="./images/portfolio5.jpg" alt=""></li>
-            <li><img src="./images/portfolio6.jpg" alt=""></li>
-            <li><img src="./images/portfolio7.jpg" alt=""></li>
-            <li><img src="./images/portfolio8.jpg" alt=""></li>
-            <li><img src="./images/portfolio9.jpg" alt=""></li>
+    </header>
+
+    <section>
+        <ul class="text">
+            <li><button class="button-portfolio" type="button">Wszystkie</button></li>
+            <li><button class="button-portfolio" type="button">Strony</button></li>
+            <li><button class="button-portfolio" type="button">Aplikacje</button></li>
+            <li><button class="button-portfolio" type="button">Dizajn</button></li>
+            <li><button class="button-portfolio" type="button">Marketing</button></li>
         </ul>
 
+        <ul>
+            <li><img src="./images/portfolio1.jpg" alt="laptop otwarty na stronie firmy">
+                <h4>Technocrack</h4>
+                <p>Strona internetowa</p>
+            </li>
+            <li><img src="./images/portfolio2.jpg" alt="dwóch koszykarzy walczących o piłkę">
+                <h4>Grafika New Orlean vs Golden Star</h4>
+                <p>Dizajn</p>
+            </li>
+            <li><img src="./images/portfolio3.jpg" alt="logo restauracji">
+                <h4>Restauracja Seafood</h4>
+                <p>Aplikacja</p>
+            </li>
+            <li><img src="./images/portfolio4.jpg" alt="słuchawki">
+                <h4>Projekt Prime</h4>
+                <p>Marketing</p>
+            </li>
+            <li><img src="./images/portfolio5.jpg" alt="dwa boxy">
+                <h4>Projekt Boxes</h4>
+                <p>Aplikacja</p>
+            </li>
+            <li><img src="./images/portfolio6.jpg" alt="monitor komputera">
+                <h4>Inspiration has no Borders</h4>
+                <p>Strona internetowa</p>
+            </li>
+            <li><img src="./images/portfolio7.jpg" alt="książka">
+                <h4>Magazyn Limited Edition</h4>
+                <p>Dizajn</p>
+            </li>
+            <li><img src="./images/portfolio8.jpg" alt="labelka na sznurku">
+                <h4>Projekt LAB</h4>
+                <p>Marketing</p>
+            </li>
+            <li><img src="./images/portfolio9.jpg" alt="osoba korzysta z laptopa">
+                <h4>Growing Business</h4>
+                <p>Aplikacja</p>
+            </li>
+        </ul>
 
+    </section>
 
-      </div>
+    <footer class="background">
+
+        <h3 class="w-text"><span class="color-logo">Web</span>Studio</h3>
+
+        <address class="w-text">m. Warszawa, Aleje Jerozolimskie 21</address>
+        <br />
+        <ul class="links">
+            <li><a href="mailito:info@example.com">
+                    <span class="underline">info@example.com</span></a></li>
+            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
