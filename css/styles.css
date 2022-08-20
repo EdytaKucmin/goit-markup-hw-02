@@ -67,7 +67,6 @@ body {
 }
 
 .lorem-text {
-  font-weight: 400;
   line-height: 1.714;
 }
 
@@ -77,7 +76,6 @@ body {
 
 .section-bottom {
   background-color: var(--light);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.186;
 }
@@ -129,7 +127,6 @@ body {
 .footer-address {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   line-height: 1.714;
 }
 
