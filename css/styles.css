@@ -55,6 +55,12 @@ body {
   letter-spacing: 0.06em;
 }
 
+.button-studio:hover,
+.button-studio:focus {
+  color: var(--different-black);
+  background-color: var(--light);
+}
+
 .heading-lorem {
   font-weight: 700;
   line-height: 1.143;
