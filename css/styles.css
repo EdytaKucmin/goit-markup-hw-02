@@ -23,6 +23,11 @@ body {
   font-size: 26px;
   color: var(--black);
   line-height: 1.192;
+  text-decoration: none;
+}
+
+.color-logo {
+  color: var(--blue);
 }
 
 .menu {
@@ -122,12 +127,18 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+  text-decoration: none;
 }
 
 .footer-address {
   font-family: "Roboto";
   font-style: normal;
   line-height: 1.714;
+}
+
+.mail-color:hover,
+.mail-color:focus {
+  color: var(--blue);
 }
 
 /*all*/
@@ -144,7 +155,13 @@ body {
   text-decoration: none;
 }
 
-.link-active {
+.grey-contact {
+  color: var(--grey);
+}
+
+.link-active,
+.links:hover,
+.links:focus {
   color: var(--blue);
 }
 
@@ -152,19 +169,6 @@ body {
   background-color: var(--dark-grey);
 }
 
-.color-logo {
-  color: var(--blue);
-}
-
-a:hover,
-a:focus {
-  color: var(--blue);
-}
-
-a {
-  color: var(--grey);
-}
-
-ul {
+.ul-style {
   list-style-type: none;
 }
